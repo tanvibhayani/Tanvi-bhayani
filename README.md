@@ -3,6 +3,8 @@
 ### BCA (Hons) Student | Exploring Machine Learning |  Web Development
 
 Welcome to my GitHub profile!  
+Passionate about creating meaningful projects and learning new technologies  
+Always eager to grow and explore the tech world!  
 Here are some of my main repositories and projects 👇  
 
 ---
