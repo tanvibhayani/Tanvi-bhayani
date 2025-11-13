@@ -1,6 +1,6 @@
 # 👩‍💻 Tanvi-Bhayani
 
-### BCA (Hons) Student | Exploring Machine Learning |  & Web Development
+### BCA (Hons) Student | Exploring Machine Learning |  Web Development
 
 Welcome to my GitHub profile!  
 Here are some of my main repositories and projects 👇  
