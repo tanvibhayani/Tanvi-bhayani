@@ -13,8 +13,7 @@ Here are some of my main repositories and projects 👇
 - [ML Certificate](https://github.com/tanvibhayani/certificates)
 
 ### 💼 Web Development
-- [Job Portal](https://github.com/tanvibhayani/jobportal)
-- [E-Commerce Website](https://github.com/tanvibhayani/ecommerce-project)
+- [Job Portal](https://github.com/tanvibhayani/jobtex-portal)
 
 ### 🎓 Academic / Others
 - [Portfolio Website](https://github.com/tanvibhayani/portfolio)
