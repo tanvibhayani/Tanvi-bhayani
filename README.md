@@ -19,16 +19,17 @@ Here are some of my main repositories and projects 👇
 ---
 ## 📁 My Projects
 
-### 🧠 Machine Learning
-- [ML Certificate](https://github.com/tanvibhayani/certificates)
-
 ### 💼 Web Development
 - [Jobtex Portal](https://github.com/tanvibhayani/jobtex-portal)
 
 ### 💼 Web Development Live Demo
 - [Live Demo](https://jobportalphp.rf.gd/)  
 ---
+### 🧠 Machine Learning
 
+ [ML Certificate](https://github.com/tanvibhayani/certificates)
+🪪 [View Certificate](https://github.com/tanvibhayani/certificates/blob/main/ml_certificate.png)
+---
 ### 📊 GitHub Stats
 ![Tanvi's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&include_all_commits=true&count_private=true&cache_seconds=1800&v=4)
 
