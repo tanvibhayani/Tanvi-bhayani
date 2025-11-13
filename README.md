@@ -15,10 +15,6 @@ Here are some of my main repositories and projects 👇
 ### 💼 Web Development
 - [Job Portal](https://github.com/tanvibhayani/jobtex-portal)
 
-### 🎓 Academic / Others
-- [Portfolio Website](https://github.com/tanvibhayani/portfolio)
-- [College Notes](https://github.com/tanvibhayani/notes)
-
 ---
 
 ### 📊 GitHub Stats
