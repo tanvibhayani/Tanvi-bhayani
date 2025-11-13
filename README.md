@@ -31,7 +31,7 @@ Here are some of my main repositories and projects 👇
  
  [IBM](https://github.com/tanvibhayani/certificates/blob/main/Machine-learning.png)
  
-![Freecodecamp Certificate](https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png)
+ [Freecodecamp Certificate](https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png)
 
 ---
 ### 📊 GitHub Stats
