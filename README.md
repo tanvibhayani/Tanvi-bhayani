@@ -35,8 +35,7 @@ Here are some of my main repositories and projects 👇
 
 ---
 ### 📊 GitHub Stats
-![Tanvi's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&include_all_commits=true&count_private=true&cache_seconds=1800&v=12)
-
+![Tanvi's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&include_all_commits=true&count_private=true&cache_seconds=1800&v=10)
 ---
 ## 🗣️ Languages I Use Most
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=tokyonight)
