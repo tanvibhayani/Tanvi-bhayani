@@ -26,5 +26,6 @@ Here are some of my main repositories and projects 👇
 ## 🗣️ Languages I Use Most
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=tokyonight)
 
+---
 
 ⭐ *Thanks for visiting my profile!*
