@@ -35,7 +35,6 @@ Here are some of my main repositories and projects 👇
 
 ---
 ### 📊 GitHub Stats
-### 📊 GitHub Stats
 ![Tanvi's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&include_all_commits=true)
 
 ---
