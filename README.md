@@ -11,7 +11,6 @@ Here are some of my main repositories and projects 👇
 
 ### 🧠 Machine Learning
 - [ML Certificate](https://github.com/tanvibhayani/certificates)
-- [ML Mini Projects](https://github.com/tanvibhayani/ml-mini-projects)
 
 ### 💼 Web Development
 - [Job Portal](https://github.com/tanvibhayani/jobportal)
