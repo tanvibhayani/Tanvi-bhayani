@@ -7,6 +7,14 @@ Here are some of my main repositories and projects 👇
 
 ---
 
+## 🧠 About Me
+- 🔭 I’m currently working on **Machine Learning projects & Web Applications**  
+- 📚 I love learning about Machine Learning & Web Development,
+- 🧩 I enjoy solving real-world problems using code  
+- 💬 Ask me about **Python, PHP, or Machine Learning**  
+- 🌐 Visit my live project: [Jobtex Portal](https://jobportalphp.rf.gd/)  
+
+---
 ## 📁 My Projects
 
 ### 🧠 Machine Learning
