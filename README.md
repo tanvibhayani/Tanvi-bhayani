@@ -29,7 +29,8 @@ Here are some of my main repositories and projects 👇
 - [Live Demo](https://jobportalphp.rf.gd/)  
 ---
 
-### 📊 GitHub Stats![Tanvi's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&include_all_commits=true&count_private=true&cache_seconds=1800&v=2)
+### 📊 GitHub Stats
+![Tanvi's GitHub stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&include_all_commits=true&count_private=true&cache_seconds=1800&v=2)
 
 ---
 ## 🗣️ Languages I Use Most
