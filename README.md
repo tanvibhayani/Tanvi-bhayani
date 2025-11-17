@@ -44,9 +44,6 @@ Here are some of my main repositories and projects 👇
 ![GitHub Streak](https://streak-stats.demolab.com?user=tanvibhayani&theme=dracula&hide_border=true)
 
 ---
-## 🗣️ Languages I Use Most
 
-
----
 
 ⭐ *Thanks for visiting my profile!*
