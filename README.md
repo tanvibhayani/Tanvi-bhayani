@@ -34,7 +34,7 @@ Here are some of my main repositories and projects 👇
  [Freecodecamp Certificate](https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png)
 
 ---
-### 📊 GitHub Stats
+
 ## 📊 GitHub Stats
 
 ![Tanvi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=dracula)
@@ -45,7 +45,7 @@ Here are some of my main repositories and projects 👇
 
 ---
 ## 🗣️ Languages I Use Most
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=tokyonight)
+
 
 ---
 
