@@ -19,11 +19,15 @@ Here are some of my main repositories and projects 👇
 ---
 ## 📁 My Projects
 
-### 💼 Web Development
-- [Jobtex Portal](https://github.com/tanvibhayani/jobtex-portal)
+###💼 Web Development
 
-### 💼 Web Development Live Demo
-- [Live Demo](https://jobportalphp.rf.gd/)  
+Jobtex Portal (GitHub Repository)
+👉 https://github.com/tanvibhayani/jobtex-portal
+
+🚀 Live Web Application
+
+Jobtex Portal – Live Demo
+👉 https://jobportalphp.rf.gd/
 ---
 ### 🧠 Machine Learning
 
