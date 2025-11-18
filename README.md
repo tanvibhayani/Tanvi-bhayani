@@ -31,10 +31,13 @@ Here are some of my main repositories and projects 👇
 ---
 ### 🧠 Machine Learning
 
+📂 ML Certificates Repository
  [ML Certificate](https://github.com/tanvibhayani/certificates)
- 
+
+ 🎓 IBM Machine Learning Certificate
  [IBM](https://github.com/tanvibhayani/certificates/blob/main/Machine-learning.png)
- 
+
+ 🎓 FreeCodeCamp Machine Learning Certificate
  [Freecodecamp Certificate](https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png)
 
 ---
@@ -51,3 +54,4 @@ Here are some of my main repositories and projects 👇
 
 
 ⭐ *Thanks for visiting my profile!*
+If you like my work, feel free to ⭐ star the repositories or connect with me!
