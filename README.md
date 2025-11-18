@@ -19,7 +19,7 @@ Here are some of my main repositories and projects 👇
 ---
 ## 📁 My Projects
 
-###💼 Web Development
+💼 Web Development
 
 Jobtex Portal (GitHub Repository)
 👉 https://github.com/tanvibhayani/jobtex-portal
