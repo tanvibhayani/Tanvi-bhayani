@@ -43,13 +43,6 @@ Here are some of my main repositories and projects 👇
 
 ---
 
-## 📊 GitHub Stats
-
-![Tanvi's GitHub stats]([https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=dracula&cache_seconds=1](https://github-readme-stats.vercel.app/api?username=tanvibhayani&show_icons=true&theme=dracula
-))
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=dracula)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=tanvibhayani&theme=dracula&hide_border=true)
 
 ---
