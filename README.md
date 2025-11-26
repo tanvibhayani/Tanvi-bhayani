@@ -42,6 +42,15 @@ Here are some of my main repositories and projects 👇
  [Freecodecamp Certificate](https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png)
 
 ---
+<p align="center">
+
+<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=darpana-chauhan&show_icons=true&theme=radical&hide_border=true" />
+
+<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=darpana-chauhan&layout=compact&theme=radical&hide_border=true" />
+
+</p>
+
+Seen by darpana chauhan at 3:14 PM.
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=tanvibhayani&theme=dracula&hide_border=true)
 
