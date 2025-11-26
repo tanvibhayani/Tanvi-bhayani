@@ -44,9 +44,9 @@ Here are some of my main repositories and projects 👇
 ---
 <p align="center">
 
-<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=darpana-chauhan&show_icons=true&theme=radical&hide_border=true" />
+<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&hide_border=true" />
 
-<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=darpana-chauhan&layout=compact&theme=radical&hide_border=true" />
+<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=radical&hide_border=true" />
 
 </p>
 
