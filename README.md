@@ -50,9 +50,6 @@ Here are some of my main repositories and projects 👇
 
 </p>
 
-Seen by darpana chauhan at 3:14 PM.
-
-![GitHub Streak](https://streak-stats.demolab.com?user=tanvibhayani&theme=dracula&hide_border=true)
 
 ---
 
