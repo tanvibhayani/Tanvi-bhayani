@@ -1,59 +1,72 @@
 # 👩‍💻 Tanvi-Bhayani
 
-### BCA (Hons) Student | Exploring Machine Learning |  Web Development
+### BCA (Hons) Student | Data Science & Machine Learning | Web Development
 
 Welcome to my GitHub profile!  
-Passionate about creating meaningful projects and learning new technologies  
-Always eager to grow and explore the tech world!  
-Here are some of my main repositories and projects 👇  
+Passionate about building meaningful projects using data and code  
+Always eager to learn, grow, and explore new technologies 🚀  
 
 ---
 
 ## 🧠 About Me
-- 🔭 I’m currently working on **Machine Learning projects & Web Applications**  
-- 📚 I love learning about Machine Learning & Web Development,
-- 🧩 I enjoy solving real-world problems using code  
-- 💬 Ask me about **Python, PHP, or Machine Learning**  
-- 🌐 Visit my live project: [Jobtex Portal](https://jobportalphp.rf.gd/)  
+- 🔭 Currently working on **Data Science, Machine Learning projects & Web Applications**  
+- 📚 Interested in **Machine Learning, Data Analysis, and Web Development**  
+- 🧩 Enjoy solving real-world problems using data-driven approaches  
+- 💬 Ask me about **Python, Machine Learning, PHP, or Data Analysis**  
+- 🌐 Live Project: [Jobtex Portal](https://jobportalphp.rf.gd/)
 
 ---
+
 ## 📁 My Projects
 
-💼 Web Development
+### 💼 Web Development
+- **Jobtex Portal** – PHP & MySQL based Job Portal  
+  👉 https://github.com/tanvibhayani/jobtex-portal  
 
-- Jobtex Portal (GitHub Repository)
-  
-  👉 https://github.com/tanvibhayani/jobtex-portal
-
-🚀 Live Web Application
-
-- Jobtex Portal – Live Demo  
-  👉 https://jobportalphp.rf.gd/
----
-### 🧠 Machine Learning
-
-📂 ML Certificates Repository
- [ML Certificate](https://github.com/tanvibhayani/certificates)
-
- 🎓 IBM Machine Learning Certificate
- [IBM](https://github.com/tanvibhayani/certificates/blob/main/Machine-learning.png)
-
- 🎓 FreeCodeCamp Machine Learning Certificate
- [Freecodecamp Certificate](https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png)
+🚀 **Live Demo**  
+👉 https://jobportalphp.rf.gd/
 
 ---
+
+### 📊 Data Science & Machine Learning
+
+- **Bank Customer Churn Prediction**  
+  A data science project focused on analyzing bank customer data, performing EDA, and applying machine learning models to predict customer churn and understand retention factors.  
+  👉 *(Add GitHub Repository Link Here)*
+
+---
+
+### 📈 Dashboards & Visualization
+
+- **Customer Analytics Dashboard**  
+  Interactive dashboard created to visualize customer behavior and key insights using data visualization tools.  
+  👉 *(Add Dashboard Repository Link Here)*
+
+- **Sales / Business Insights Dashboard**  
+  Dashboard designed to analyze trends, performance metrics, and support data-driven decisions.  
+  👉 *(Add Dashboard Repository Link Here)*
+
+---
+
+### 🧠 Machine Learning Certificates
+
+📂 **Certificates Repository**  
+👉 https://github.com/tanvibhayani/certificates  
+
+🎓 IBM Machine Learning Certificate  
+👉 https://github.com/tanvibhayani/certificates/blob/main/Machine-learning.png  
+
+🎓 FreeCodeCamp Machine Learning Certificate  
+👉 https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png  
+
+---
+
 <p align="center">
-
 <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&hide_border=true" />
-
 <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=radical&hide_border=true" />
-
 </p>
 
-
 ---
 
-
-⭐ *Thanks for visiting my profile!*
-
+⭐ *Thanks for visiting my profile!*  
 If you like my work, feel free to ⭐ star the repositories or connect with me!
