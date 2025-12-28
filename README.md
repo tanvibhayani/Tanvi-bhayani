@@ -32,7 +32,7 @@ Always eager to learn, grow, and explore new technologies 🚀
 
 - **Bank Customer Churn Prediction**  
   A data science project focused on analyzing bank customer data, performing EDA, and applying machine learning models to predict customer churn and understand retention factors.  
-  👉 *(Add GitHub Repository Link Here)*
+  👉 https://github.com/tanvibhayani/Bank_Customer_Churn
 
 ---
 
@@ -40,11 +40,11 @@ Always eager to learn, grow, and explore new technologies 🚀
 
 - **Customer Analytics Dashboard**  
   Interactive dashboard created to visualize customer behavior and key insights using data visualization tools.  
-  👉 *(Add Dashboard Repository Link Here)*
+  👉 (https://github.com/tanvibhayani/Super_store_sale_Dashboard)
 
 - **Sales / Business Insights Dashboard**  
   Dashboard designed to analyze trends, performance metrics, and support data-driven decisions.  
-  👉 *(Add Dashboard Repository Link Here)*
+  👉(https://github.com/tanvibhayani/Smart-city-citizen-Activity)
 
 ---
 
