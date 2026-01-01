@@ -48,6 +48,14 @@ Always eager to learn, grow, and explore new technologies 🚀
 
 ---
 
+- **Face Recognition System**  
+  An AI-powered face recognition system developed using Python and OpenCV.  
+  The project focuses on detecting faces, extracting facial features, and recognizing individuals with accuracy.  
+  It showcases real-world use cases of machine learning and computer vision in areas such as security, attendance systems, and surveillance.  
+  👉 https://github.com/tanvibhayani/Face-Recognition
+
+ ---
+
 ### 🧠 Machine Learning Certificates
 
 📂 **Certificates Repository**  
