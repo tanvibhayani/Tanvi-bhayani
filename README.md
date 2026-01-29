@@ -68,6 +68,22 @@ Always eager to learn, grow, and explore new technologies 🚀
 👉 https://github.com/tanvibhayani/certificates/blob/main/machine_learning.png  
 
 ---
+📊 Data Science & Machine Learning
+
+Historical Product Demand Analysis & Prediction
+A machine learning project focused on analyzing historical product demand data and predicting future demand trends.
+The project uses data preprocessing, feature scaling, and a trained ML model, and is deployed as an interactive web application using Streamlit.
+It helps in understanding demand patterns and supports better inventory and business decision-making.
+
+🔗 GitHub Repository
+👉 https://github.com/tanvibhayani/historical-product-demand
+
+🚀 Live Applications
+👉 Hugging Face: https://huggingface.co/spaces/tanvi-bhayani/product-demand
+
+👉 Streamlit Cloud: https://historical-appuct-demand-vbnw85sndybsxfxio7wn3c.streamlit.app/
+
+---
 
 <p align="center">
 <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&hide_border=true" />
