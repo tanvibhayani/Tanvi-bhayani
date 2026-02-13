@@ -1,14 +1,15 @@
-# 👩‍💻 Tanvi-Bhayani
+# 👩‍💻 Tanvi Bhayani
 
 ### BCA (Hons) Student | Data Science & Machine Learning | Web Development
 
 Welcome to my GitHub profile!  
-Passionate about building meaningful projects using data and code  
+Passionate about building meaningful projects using data and code.  
 Always eager to learn, grow, and explore new technologies 🚀  
 
 ---
 
 ## 🧠 About Me
+
 - 🔭 Currently working on **Data Science, Machine Learning projects & Web Applications**  
 - 📚 Interested in **Machine Learning, Data Analysis, and Web Development**  
 - 🧩 Enjoy solving real-world problems using data-driven approaches  
@@ -17,60 +18,55 @@ Always eager to learn, grow, and explore new technologies 🚀
 
 ---
 
-## 📁 My Projects
+## 💼 Web Development Projects
 
-### 💼 Web Development
 - **Jobtex Portal** – PHP & MySQL based Job Portal  
-  👉 https://github.com/tanvibhayani/jobtex-portal  
-
-🚀 **Live Demo**  
-👉 https://jobportalphp.rf.gd/
+  👉 GitHub: https://github.com/tanvibhayani/jobtex-portal  
+  🚀 Live Demo: https://jobportalphp.rf.gd/
 
 ---
 
-### 📊 Data Science & Machine Learning
-- **Historical Product Demand Analysis & Prediction**  
-  A machine learning project focused on analyzing historical product demand data and predicting future demand trends.
-The project uses data preprocessing, feature scaling, and a trained ML model, and is deployed as an interactive web application using Streamlit.
-It helps in understanding demand patterns and supports better inventory and business decision-making.
+## 📊 Data Science & Machine Learning Projects
 
-🔗 GitHub Repository
-👉 https://github.com/tanvibhayani/historical-product-demand
-
-🚀 Live Applications
-👉 Hugging Face: https://huggingface.co/spaces/tanvi-bhayani/product-demand
-
-👉 Streamlit Cloud: https://historical-appuct-demand-vbnw85sndybsxfxio7wn3c.streamlit.app/
+- **Historical Product Demand Analysis & Prediction (ML App)**  
+  Machine learning project to analyze historical product demand and predict future trends.  
+  Includes data preprocessing, feature engineering, model training, and deployment using Streamlit.  
+  👉 GitHub: https://github.com/tanvibhayani/historical-product-demand  
+  🚀 Live Apps:  
+  - Hugging Face: https://huggingface.co/spaces/tanvi-bhayani/product-demand  
+  - Streamlit Cloud: https://historical-appuct-demand-vbnw85sndybsxfxio7wn3c.streamlit.app/
 
 - **Bank Customer Churn Prediction**  
-  A data science project focused on analyzing bank customer data, performing EDA, and applying machine learning models to predict customer churn and understand retention factors.  
-  👉 https://github.com/tanvibhayani/Bank_Customer_Churn
-
----
-
-### 📈 Dashboards & Visualization
-
-- **Customer Analytics Dashboard**  
-  Interactive dashboard created to visualize customer behavior and key insights using data visualization tools.  
-  👉 (https://github.com/tanvibhayani/Super_store_sale_Dashboard)
-
-- **Sales / Business Insights Dashboard**  
-  Dashboard designed to analyze trends, performance metrics, and support data-driven decisions.  
-  👉(https://github.com/tanvibhayani/Smart-city-citizen-Activity)
-
----
+  EDA + ML models to predict customer churn and analyze retention factors.  
+  👉 GitHub: https://github.com/tanvibhayani/Bank_Customer_Churn  
 
 - **Face Recognition System**  
-  An AI-powered face recognition system developed using Python and OpenCV.  
-  The project focuses on detecting faces, extracting facial features, and recognizing individuals with accuracy.  
-  It showcases real-world use cases of machine learning and computer vision in areas such as security, attendance systems, and surveillance.  
-  👉 https://github.com/tanvibhayani/Face-Recognition
+  AI-powered face recognition using Python & OpenCV.  
+  Focuses on face detection, feature extraction, and recognition.  
+  👉 GitHub: https://github.com/tanvibhayani/Face-Recognition  
 
- ---
+---
 
-### 🧠 Machine Learning Certificates
+## 📈 Dashboards & Data Visualization
 
-📂 **Certificates Repository**  
+- **Historical Product Demand Dashboard (NEW)**  
+  Interactive dashboard to analyze historical product demand using time-series features  
+  (rolling means, lag variables, trends, seasonality, warehouse & category insights).  
+  👉 GitHub: https://github.com/tanvibhayani/Historical_product_demand_dashboard  
+
+- **Customer Analytics Dashboard**  
+  Interactive dashboard to visualize customer behavior and key insights.  
+  👉 GitHub: https://github.com/tanvibhayani/Super_store_sale_Dashboard  
+
+- **Sales / Business Insights Dashboard**  
+  Dashboard to analyze trends and performance metrics for data-driven decisions.  
+  👉 GitHub: https://github.com/tanvibhayani/Smart-city-citizen-Activity  
+
+---
+
+## 🧠 Machine Learning Certificates
+
+📂 Certificates Repository  
 👉 https://github.com/tanvibhayani/certificates  
 
 🎓 IBM Machine Learning Certificate  
@@ -81,10 +77,9 @@ It helps in understanding demand patterns and supports better inventory and busi
 
 ---
 
-
 <p align="center">
-<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&hide_border=true" />
-<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=radical&hide_border=true" />
+  <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=tanvibhayani&show_icons=true&theme=radical&hide_border=true" />
+  <img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=tanvibhayani&layout=compact&theme=radical&hide_border=true" />
 </p>
 
 ---
