@@ -23,52 +23,82 @@ body{
 }
 
 .container{
-    max-width:420px;
+    max-width:700px;
     margin:auto;
     background:white;
-    padding:20px;
-    border-radius:20px;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    text-align:center;
+    overflow:hidden;
 }
 
 .logo{
-    width:100px;
-    height:100px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #eee;
+    opacity:0;
+    animation:zoomLogo 1.5s forwards;
 }
 
 h1{
-    font-size:32px;
+    font-size:55px;
+    margin-top:20px;
+    color:#222;
+    opacity:0;
+    animation:fadeUp 1s forwards 1.5s;
 }
 
 .tagline{
-    font-size:14px;
-    line-height:1.5;
+    margin-top:20px;
+    font-size:20px;
+    color:#555;
+    line-height:1.8;
+    opacity:0;
+    animation:fadeUp 1s forwards 2.5s;
 }
 
 .section{
-    padding:15px;
+    background:#fafafa;
+    padding:25px;
+    border-radius:20px;
+    text-align:left;
 }
 
 .section h2{
-    font-size:24px;
-}
-
-.section li{
-    font-size:14px;
-    margin:4px 0;
-}
-
-.line{
-    width:50px;
+    color:#ff6600;
+    font-size:38px;
     margin-bottom:10px;
 }
 
-.btn{
-    font-size:16px;
-    padding:12px;
+.line{
+    width:70px;
+    height:4px;
+    background:#ff6600;
+    border-radius:20px;
+    margin-bottom:20px;
+    transform:scaleX(0);
+    transform-origin:left;
+    animation:lineGrow 1s forwards;
 }
 
+.section ul{
+    padding-left:25px;
+}
+
+.section li{
+    margin:8px 0;
+    font-size:22px;
+}
+
+/* ANIMATION WRAPPER */
+
 .animation-wrapper{
-    min-height:280px;
+    position:relative;
+    min-height:450px;
+    margin-top:30px;
 }
 
 .tour,
@@ -138,21 +168,7 @@ h1{
     opacity:0;
     animation:fadeIn 1s forwards 10s;
 }
-.tour{
-    opacity:0;
-    animation:tourSlide 1.5s ease forwards;
-}
 
-@keyframes tourSlide{
-    from{
-        opacity:0;
-        transform:translateX(-150px);
-    }
-    to{
-        opacity:1;
-        transform:translateX(0);
-    }
-}
 /* KEYFRAMES */
 
 @keyframes zoomLogo{
@@ -201,9 +217,12 @@ h1{
 <div class="container">
 
 <img src="logo.jpeg" class="logo">
+
+<h1>Shivalik Global</h1>
+
 <div class="tagline">
 🌍 Explore inspiration & ideas with us! ✨
-<br>
+<br><br>
 Shivalik Global HR is a professional recruitment,
 manpower, immigration, visa support and travel service company.
 </div>
