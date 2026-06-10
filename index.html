@@ -11,161 +11,94 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <style>
 
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
 body{
-background:#f3f4f6;
-padding:20px;
+    background:#f3f4f6;
+    padding:20px;
 }
 
 .container{
-max-width:700px;
-margin:auto;
-background:white;
-padding:40px;
-border-radius:25px;
-box-shadow:0 0 20px rgba(0,0,0,0.1);
-text-align:center;
-overflow:hidden;
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    text-align:center;
+    overflow:hidden;
 }
 
 .logo{
-width:150px;
-height:150px;
-border-radius:50%;
-object-fit:cover;
-border:5px solid #eee;
-
-opacity:0;
-animation:zoomLogo 1.5s forwards;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #eee;
+    opacity:0;
+    animation:zoomLogo 1.5s forwards;
 }
 
 h1{
-font-size:55px;
-margin-top:20px;
-color:#222;
-
-opacity:0;
-animation:fadeUp 1s forwards 1.5s;
+    font-size:55px;
+    margin-top:20px;
+    color:#222;
+    opacity:0;
+    animation:fadeUp 1s forwards 1.5s;
 }
 
 .tagline{
-margin-top:20px;
-font-size:20px;
-color:#555;
-line-height:1.8;
-
-opacity:0;
-animation:fadeUp 1s forwards 2.5s;
+    margin-top:20px;
+    font-size:20px;
+    color:#555;
+    line-height:1.8;
+    opacity:0;
+    animation:fadeUp 1s forwards 2.5s;
 }
 
 .section{
-background:#fafafa;
-padding:25px;
-border-radius:20px;
-margin-top:30px;
-text-align:left;
+    background:#fafafa;
+    padding:25px;
+    border-radius:20px;
+    text-align:left;
 }
 
 .section h2{
-color:#ff6600;
-font-size:38px;
-margin-bottom:10px;
+    color:#ff6600;
+    font-size:38px;
+    margin-bottom:10px;
 }
 
 .line{
-width:70px;
-height:4px;
-background:#ff6600;
-border-radius:20px;
-margin-bottom:20px;
-
-transform:scaleX(0);
-transform-origin:left;
-animation:lineGrow 1s forwards;
+    width:70px;
+    height:4px;
+    background:#ff6600;
+    border-radius:20px;
+    margin-bottom:20px;
+    transform:scaleX(0);
+    transform-origin:left;
+    animation:lineGrow 1s forwards;
 }
 
 .section ul{
-padding-left:25px;
+    padding-left:25px;
 }
 
 .section li{
-margin:8px 0;
-font-size:22px;
+    margin:8px 0;
+    font-size:22px;
 }
 
-/* TOURS */
+/* ANIMATION WRAPPER */
 
-.tour{
-opacity:0;
-animation:
-showTour 1.5s forwards 4s,
-hideTour 1s forwards 7s;
-}
-
-/* IMMIGRATION */
-
-.immigration{
-opacity:0;
-animation:
-showImmigration 1.5s forwards 8s,
-hideImmigration 1s forwards 11s;
-}
-
-/* FINAL */
-
-.final-sections{
-display:flex;
-flex-direction:column;
-gap:20px;
-opacity:0;
-animation:showFinal 1.5s forwards 12.5s;
-}
-
-.social{
-margin-top:30px;
-opacity:0;
-animation:fadeIn 1s forwards 14s;
-}
-
-.btn{
-display:block;
-padding:15px;
-margin:12px 0;
-border-radius:12px;
-text-decoration:none;
-color:white;
-font-size:22px;
-font-weight:bold;
-}
-
-.whatsapp{
-background:#25D366;
-}
-
-.linkedin{
-background:#0077B5;
-}
-
-.instagram{
-background:#E1306C;
-}
-
-.footer{
-margin-top:20px;
-color:#777;
-opacity:0;
-animation:fadeIn 1s forwards 15s;
-}
-
-/* ANIMATION */
-  .animation-wrapper{
+.animation-wrapper{
     position:relative;
-    min-height:420px;
+    min-height:450px;
+    margin-top:30px;
 }
 
 .tour,
@@ -176,142 +109,110 @@ animation:fadeIn 1s forwards 15s;
     width:100%;
 }
 
+.tour{
+    opacity:1;
+}
+
 .immigration{
     display:none;
 }
 
+/* FINAL SECTION */
+
 .final-sections{
     display:none;
-    opacity:1 !important;
+    flex-direction:column;
+    gap:20px;
+    margin-top:30px;
 }
 
+/* SOCIAL BUTTONS */
+
+.social{
+    margin-top:30px;
+    opacity:0;
+    animation:fadeIn 1s forwards 9s;
+}
+
+.btn{
+    display:block;
+    padding:15px;
+    margin:12px 0;
+    border-radius:12px;
+    text-decoration:none;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.linkedin{
+    background:#0077B5;
+}
+
+.instagram{
+    background:#E1306C;
+}
+
+.footer{
+    margin-top:20px;
+    color:#777;
+    opacity:0;
+    animation:fadeIn 1s forwards 10s;
+}
+
+/* KEYFRAMES */
+
 @keyframes zoomLogo{
-from{
-opacity:0;
-transform:scale(0.4);
-}
-to{
-opacity:1;
-transform:scale(1);
-}
+    from{
+        opacity:0;
+        transform:scale(0.4);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
 }
 
 @keyframes fadeUp{
-from{
-opacity:0;
-transform:translateY(30px);
-}
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-
-@keyframes showTour{
-from{
-opacity:0;
-transform:translateX(-100px);
-}
-to{
-opacity:1;
-transform:translateX(0);
-}
-}
-
-@keyframes hideTour{
-to{
-opacity:0;
-transform:translateX(100px);
-}
-}
-
-@keyframes showImmigration{
-from{
-opacity:0;
-transform:translateX(100px);
-}
-to{
-opacity:1;
-transform:translateX(0);
-}
-}
-
-@keyframes hideImmigration{
-to{
-opacity:0;
-transform:translateX(-100px);
-}
-}
-
-@keyframes showFinal{
-from{
-opacity:0;
-transform:scale(.9);
-}
-to{
-opacity:1;
-transform:scale(1);
-}
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 @keyframes lineGrow{
-to{
-transform:scaleX(1);
-}
+    from{
+        transform:scaleX(0);
+    }
+    to{
+        transform:scaleX(1);
+    }
 }
 
 @keyframes fadeIn{
-to{
-opacity:1;
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
 }
-}
-
 </style>
 </head>
-  <script>
-
-const tour = document.querySelector('.tour');
-const immigration = document.querySelector('.immigration');
-const wrapper = document.querySelector('.animation-wrapper');
-const finalSections = document.querySelector('.final-sections');
-
-/* 4 second pachi Tours hide */
-
-setTimeout(() => {
-
-    tour.style.display = "none";
-    immigration.style.display = "block";
-
-    immigration.animate([
-        {opacity:0, transform:'translateX(100px)'},
-        {opacity:1, transform:'translateX(0)'}
-    ],{
-        duration:1000,
-        fill:'forwards'
-    });
-
-}, 4000);
-
-/* 8 second pachi Immigration hide */
-
-setTimeout(() => {
-
-    wrapper.style.display = "none";
-
-    finalSections.style.display = "flex";
-
-    finalSections.animate([
-        {opacity:0, transform:'scale(.8)'},
-        {opacity:1, transform:'scale(1)'}
-    ],{
-        duration:1200,
-        fill:'forwards'
-    });
-
-}, 8000);
-
-</script>
-<body>
+ <body>
 
 <div class="container">
 
@@ -326,31 +227,12 @@ Shivalik Global HR is a professional recruitment,
 manpower, immigration, visa support and travel service company.
 </div>
 
-<!-- TOURS FIRST -->
-
-<div class="section tour">
-
-<h2>Tours & Travels</h2>
-<div class="line"></div>
-
-<ul>
-<li>Domestic Tours</li>
-<li>International Tours</li>
-<li>Dubai</li>
-<li>Thailand</li>
-<li>Vietnam</li>
-<li>South Africa</li>
-<li>Hong Kong</li>
-<li>Europe</li>
-<li>Gujarat Tours</li>
-<li>Cultural Tours</li>
-</ul>
-
-</div>
+<!-- ANIMATION SECTION -->
 
 <div class="animation-wrapper">
 
     <!-- TOURS FIRST -->
+
     <div class="section tour">
 
         <h2>Tours & Travels</h2>
@@ -372,6 +254,7 @@ manpower, immigration, visa support and travel service company.
     </div>
 
     <!-- IMMIGRATION SECOND -->
+
     <div class="section immigration">
 
         <h2>Immigration Services</h2>
@@ -396,60 +279,57 @@ manpower, immigration, visa support and travel service company.
 
 <div class="final-sections">
 
-<div class="section">
+    <div class="section">
 
-<h2>Immigration Services</h2>
-<div class="line"></div>
+        <h2>Immigration Services</h2>
+        <div class="line"></div>
 
-<ul>
-<li>Student Visa</li>
-<li>Work Visa</li>
-<li>Visitor Visa</li>
-<li>Passport Application</li>
-<li>Visa Application</li>
-<li>Air Tickets</li>
-<li>TOEFL Guidance</li>
-<li>IELTS Guidance</li>
-</ul>
+        <ul>
+            <li>Student Visa</li>
+            <li>Work Visa</li>
+            <li>Visitor Visa</li>
+            <li>Passport Application</li>
+            <li>Visa Application</li>
+            <li>Air Tickets</li>
+            <li>TOEFL Guidance</li>
+            <li>IELTS Guidance</li>
+        </ul>
 
-</div>
+    </div>
 
-<div class="section">
+    <div class="section">
 
-<h2>Tours & Travels</h2>
-<div class="line"></div>
+        <h2>Tours & Travels</h2>
+        <div class="line"></div>
 
-<ul>
-<li>Domestic Tours</li>
-<li>International Tours</li>
-<li>Dubai</li>
-<li>Thailand</li>
-<li>Vietnam</li>
-<li>South Africa</li>
-<li>Hong Kong</li>
-<li>Europe</li>
-<li>Gujarat Tours</li>
-<li>Cultural Tours</li>
-</ul>
+        <ul>
+            <li>Domestic Tours</li>
+            <li>International Tours</li>
+            <li>Dubai</li>
+            <li>Thailand</li>
+            <li>Vietnam</li>
+            <li>South Africa</li>
+            <li>Hong Kong</li>
+            <li>Europe</li>
+            <li>Gujarat Tours</li>
+            <li>Cultural Tours</li>
+        </ul>
 
-</div>
+    </div>
 
 </div>
 
 <div class="social">
 
-<a href="https://wa.me/919213628192"
-class="btn whatsapp">
+<a href="https://wa.me/919213628192" class="btn whatsapp">
 <i class="fab fa-whatsapp"></i> WhatsApp
 </a>
 
-<a href="https://linkedin.com"
-class="btn linkedin">
+<a href="https://linkedin.com" class="btn linkedin">
 <i class="fab fa-linkedin"></i> LinkedIn
 </a>
 
-<a href="https://instagram.com"
-class="btn instagram">
+<a href="https://instagram.com" class="btn instagram">
 <i class="fab fa-instagram"></i> Instagram
 </a>
 
@@ -460,6 +340,53 @@ class="btn instagram">
 </div>
 
 </div>
+
+<script>
+
+window.onload = function(){
+
+    const tour = document.querySelector('.tour');
+    const immigration = document.querySelector('.immigration');
+    const wrapper = document.querySelector('.animation-wrapper');
+    const finalSections = document.querySelector('.final-sections');
+
+    immigration.style.display = "none";
+    finalSections.style.display = "none";
+
+    setTimeout(() => {
+
+        tour.style.display = "none";
+        immigration.style.display = "block";
+
+        immigration.animate([
+            {opacity:0, transform:'translateX(100px)'},
+            {opacity:1, transform:'translateX(0)'}
+        ],{
+            duration:1000,
+            fill:'forwards'
+        });
+
+    }, 4000);
+
+    setTimeout(() => {
+
+        wrapper.style.display = "none";
+
+        finalSections.style.display = "flex";
+
+        finalSections.animate([
+            {opacity:0, transform:'scale(.8)'},
+            {opacity:1, transform:'scale(1)'}
+        ],{
+            duration:1200,
+            fill:'forwards'
+        });
+
+    }, 8000);
+
+}
+
+</script>
 
 </body>
 </html>
