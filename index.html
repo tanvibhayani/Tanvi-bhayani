@@ -168,7 +168,21 @@ h1{
     opacity:0;
     animation:fadeIn 1s forwards 10s;
 }
+.tour{
+    opacity:0;
+    animation:tourSlide 1.5s ease forwards;
+}
 
+@keyframes tourSlide{
+    from{
+        opacity:0;
+        transform:translateX(-150px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
 /* KEYFRAMES */
 
 @keyframes zoomLogo{
@@ -218,11 +232,9 @@ h1{
 
 <img src="logo.jpeg" class="logo">
 
-<h1>Shivalik Global</h1>
-
 <div class="tagline">
 🌍 Explore inspiration & ideas with us! ✨
-<br><br>
+<br>
 Shivalik Global HR is a professional recruitment,
 manpower, immigration, visa support and travel service company.
 </div>
