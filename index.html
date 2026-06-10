@@ -5,7 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shivalik Global HR Services</title>
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 <style>
+
 *{
     margin:0;
     padding:0;
@@ -15,123 +19,171 @@
 
 body{
     background:#f4f6f9;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
+    padding:20px;
 }
 
-.card{
-    width:450px;
+.container{
+    max-width:550px;
+    margin:auto;
     background:white;
     border-radius:20px;
-    padding:25px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    padding:30px;
+    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    text-align:center;
 }
 
 .logo{
-    text-align:center;
-    font-size:50px;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #f1f1f1;
 }
 
-.company-name{
-    text-align:center;
-    color:#0d47a1;
-    margin-top:10px;
-}
-
-.tagline{
-    text-align:center;
-    color:#666;
-    margin-bottom:20px;
-}
-
-.section-title{
-    color:#0d47a1;
+h1{
     margin-top:15px;
-    margin-bottom:8px;
+    font-size:40px;
+    color:#222;
 }
 
-ul{
+.description{
+    margin-top:15px;
+    color:#555;
+    line-height:1.8;
+    font-size:16px;
+}
+
+.section{
+    margin-top:30px;
+    text-align:left;
+}
+
+.section h2{
+    color:#ff6600;
+    margin-bottom:10px;
+}
+
+.section ul{
     padding-left:20px;
 }
 
-ul li{
-    margin-bottom:6px;
+.section li{
+    margin:8px 0;
 }
 
-.info{
-    margin-top:15px;
+.social{
+    margin-top:30px;
 }
 
-.info p{
-    margin-bottom:8px;
-}
-
-.website{
-    color:#0d47a1;
+.btn{
+    display:block;
     text-decoration:none;
+    color:white;
+    padding:15px;
+    margin-bottom:12px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.linkedin{
+    background:#0077B5;
+}
+
+.instagram{
+    background:#E1306C;
 }
 
 .footer{
     margin-top:20px;
-    text-align:center;
     color:#777;
     font-size:14px;
 }
+
 </style>
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
-    <div class="logo">🌍</div>
+<img src="logo.png" class="logo" alt="Shivalik Logo">
 
-    <h1 class="company-name">Shivalik Global HR Services</h1>
+<h1>Shivalik Global</h1>
 
-    <p class="tagline">
-        Jobs & Travel Plan Information
-    </p>
+<p class="description">
+🌍 Explore inspiration & ideas with us! ✨<br><br>
 
-    <h3 class="section-title">Our Services</h3>
+Shivalik Global HR is a professional recruitment,
+manpower, immigration, visa support and travel
+service company.
+</p>
 
-    <ul>
-        <li>Overseas Recruitment</li>
-        <li>International Job Placement</li>
-        <li>Visa Assistance & Documentation</li>
-        <li>HR Consulting Services</li>
-        <li>Travel Planning Support</li>
-        <li>Work Permit Guidance</li>
-        <li>Interview Preparation</li>
-        <li>Career Counseling</li>
-    </ul>
+<div class="section">
 
-    <div class="info">
-        <h3 class="section-title">Contact Information</h3>
+<h2>Immigration Services</h2>
 
-        <p><strong>Phone:</strong> +91 9998648611</p>
-        <p><strong>Phone:</strong> +91 9998149411</p>
+<ul>
+<li>Student Visa</li>
+<li>Work Visa</li>
+<li>Visitor Visa</li>
+<li>Passport Application</li>
+<li>Visa Application</li>
+<li>Air Tickets</li>
+<li>TOEFL Guidance</li>
+<li>IELTS Guidance</li>
+</ul>
 
-        <p><strong>Email:</strong>
-        Shivalikglobalhr@gmail.com</p>
+</div>
 
-        <p><strong>Website:</strong>
-        <a href="https://www.shivalikglobalhr.com"
-           class="website" target="_blank">
-           www.shivalikglobalhr.com
-        </a></p>
+<div class="section">
 
-        <p><strong>Address:</strong><br>
-        B-220, Sunwest Bank,<br>
-        Ashram Road,<br>
-        Ahmedabad - 380009
-        </p>
-    </div>
+<h2>Tours & Travels</h2>
 
-    <div class="footer">
-        Connecting Talent with Global Opportunities
-    </div>
+<ul>
+<li>Domestic Tours</li>
+<li>International Tours</li>
+<li>Dubai</li>
+<li>Thailand</li>
+<li>Vietnam</li>
+<li>South Africa</li>
+<li>Hong Kong</li>
+<li>Europe</li>
+<li>Gujarat Tours</li>
+<li>Cultural Tours</li>
+</ul>
+
+</div>
+
+<div class="social">
+
+<a href="https://wa.me/919213628192"
+class="btn whatsapp" target="_blank">
+<i class="fab fa-whatsapp"></i>
+WhatsApp
+</a>
+
+<a href="https://www.linkedin.com/"
+class="btn linkedin" target="_blank">
+<i class="fab fa-linkedin"></i>
+LinkedIn
+</a>
+
+<a href="https://www.instagram.com/"
+class="btn instagram" target="_blank">
+<i class="fab fa-instagram"></i>
+Instagram
+</a>
+
+</div>
+
+<div class="footer">
+© 2026 Shivalik Global HR Services
+</div>
 
 </div>
 
