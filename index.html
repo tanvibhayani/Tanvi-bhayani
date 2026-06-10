@@ -163,6 +163,27 @@ animation:fadeIn 1s forwards 15s;
 }
 
 /* ANIMATION */
+  .animation-wrapper{
+    position:relative;
+    min-height:420px;
+}
+
+.tour,
+.immigration{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.immigration{
+    display:none;
+}
+
+.final-sections{
+    display:none;
+    opacity:1 !important;
+}
 
 @keyframes zoomLogo{
 from{
@@ -247,6 +268,49 @@ opacity:1;
 
 </style>
 </head>
+  <script>
+
+const tour = document.querySelector('.tour');
+const immigration = document.querySelector('.immigration');
+const wrapper = document.querySelector('.animation-wrapper');
+const finalSections = document.querySelector('.final-sections');
+
+/* 4 second pachi Tours hide */
+
+setTimeout(() => {
+
+    tour.style.display = "none";
+    immigration.style.display = "block";
+
+    immigration.animate([
+        {opacity:0, transform:'translateX(100px)'},
+        {opacity:1, transform:'translateX(0)'}
+    ],{
+        duration:1000,
+        fill:'forwards'
+    });
+
+}, 4000);
+
+/* 8 second pachi Immigration hide */
+
+setTimeout(() => {
+
+    wrapper.style.display = "none";
+
+    finalSections.style.display = "flex";
+
+    finalSections.animate([
+        {opacity:0, transform:'scale(.8)'},
+        {opacity:1, transform:'scale(1)'}
+    ],{
+        duration:1200,
+        fill:'forwards'
+    });
+
+}, 8000);
+
+</script>
 <body>
 
 <div class="container">
@@ -284,23 +348,47 @@ manpower, immigration, visa support and travel service company.
 
 </div>
 
-<!-- IMMIGRATION SECOND -->
+<div class="animation-wrapper">
 
-<div class="section immigration">
+    <!-- TOURS FIRST -->
+    <div class="section tour">
 
-<h2>Immigration Services</h2>
-<div class="line"></div>
+        <h2>Tours & Travels</h2>
+        <div class="line"></div>
 
-<ul>
-<li>Student Visa</li>
-<li>Work Visa</li>
-<li>Visitor Visa</li>
-<li>Passport Application</li>
-<li>Visa Application</li>
-<li>Air Tickets</li>
-<li>TOEFL Guidance</li>
-<li>IELTS Guidance</li>
-</ul>
+        <ul>
+            <li>Domestic Tours</li>
+            <li>International Tours</li>
+            <li>Dubai</li>
+            <li>Thailand</li>
+            <li>Vietnam</li>
+            <li>South Africa</li>
+            <li>Hong Kong</li>
+            <li>Europe</li>
+            <li>Gujarat Tours</li>
+            <li>Cultural Tours</li>
+        </ul>
+
+    </div>
+
+    <!-- IMMIGRATION SECOND -->
+    <div class="section immigration">
+
+        <h2>Immigration Services</h2>
+        <div class="line"></div>
+
+        <ul>
+            <li>Student Visa</li>
+            <li>Work Visa</li>
+            <li>Visitor Visa</li>
+            <li>Passport Application</li>
+            <li>Visa Application</li>
+            <li>Air Tickets</li>
+            <li>TOEFL Guidance</li>
+            <li>IELTS Guidance</li>
+        </ul>
+
+    </div>
 
 </div>
 
