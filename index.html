@@ -5,128 +5,248 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shivalik Global HR Services</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI',sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    background:linear-gradient(135deg,#eef2f7,#d9e8ff);
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:20px;
+background:#f3f4f6;
+padding:20px;
 }
 
 .container{
-    width:100%;
-    max-width:600px;
-    background:#fff;
-    border-radius:30px;
-    padding:40px 30px;
-    text-align:center;
-    box-shadow:0 10px 35px rgba(0,0,0,0.12);
+max-width:700px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:25px;
+box-shadow:0 0 20px rgba(0,0,0,0.1);
+text-align:center;
+overflow:hidden;
 }
 
 .logo{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    object-fit:cover;
-    border:6px solid #f4f4f4;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #eee;
+
+opacity:0;
+animation:zoomLogo 1.5s forwards;
 }
 
 h1{
-    margin-top:20px;
-    font-size:42px;
-    color:#222;
+font-size:55px;
+margin-top:20px;
+color:#222;
+
+opacity:0;
+animation:fadeUp 1s forwards 1.5s;
 }
 
 .tagline{
-    margin-top:15px;
-    font-size:22px;
-    color:#444;
-    line-height:1.6;
+margin-top:20px;
+font-size:20px;
+color:#555;
+line-height:1.8;
+
+opacity:0;
+animation:fadeUp 1s forwards 2.5s;
 }
 
-.description{
-    margin-top:20px;
-    color:#666;
-    font-size:18px;
-    line-height:1.8;
+.section{
+background:#fafafa;
+padding:25px;
+border-radius:20px;
+margin-top:30px;
+text-align:left;
 }
 
-.card{
-    background:#f8fafc;
-    margin-top:25px;
-    padding:20px;
-    border-radius:20px;
-    text-align:left;
+.section h2{
+color:#ff6600;
+font-size:38px;
+margin-bottom:10px;
 }
 
-.card h2{
-    color:#ff6b00;
-    margin-bottom:15px;
+.line{
+width:70px;
+height:4px;
+background:#ff6600;
+border-radius:20px;
+margin-bottom:20px;
+
+transform:scaleX(0);
+transform-origin:left;
+animation:lineGrow 1s forwards;
 }
 
-.card ul{
-    padding-left:20px;
+.section ul{
+padding-left:25px;
 }
 
-.card li{
-    margin:8px 0;
-    color:#444;
+.section li{
+margin:8px 0;
+font-size:22px;
+}
+
+/* TOURS */
+
+.tour{
+opacity:0;
+animation:
+showTour 1.5s forwards 4s,
+hideTour 1s forwards 7s;
+}
+
+/* IMMIGRATION */
+
+.immigration{
+opacity:0;
+animation:
+showImmigration 1.5s forwards 8s,
+hideImmigration 1s forwards 11s;
+}
+
+/* FINAL */
+
+.final-sections{
+display:flex;
+flex-direction:column;
+gap:20px;
+opacity:0;
+animation:showFinal 1.5s forwards 12.5s;
 }
 
 .social{
-    margin-top:30px;
+margin-top:30px;
+opacity:0;
+animation:fadeIn 1s forwards 14s;
 }
 
 .btn{
-    display:block;
-    text-decoration:none;
-    color:white;
-    font-size:18px;
-    font-weight:600;
-    padding:15px;
-    margin:12px 0;
-    border-radius:12px;
-    transition:.3s;
-}
-
-.btn:hover{
-    transform:translateY(-3px);
+display:block;
+padding:15px;
+margin:12px 0;
+border-radius:12px;
+text-decoration:none;
+color:white;
+font-size:22px;
+font-weight:bold;
 }
 
 .whatsapp{
-    background:#25D366;
+background:#25D366;
 }
 
 .linkedin{
-    background:#0077B5;
+background:#0077B5;
 }
 
 .instagram{
-    background:#E1306C;
+background:#E1306C;
 }
 
 .footer{
-    margin-top:25px;
-    color:#777;
-    font-size:14px;
+margin-top:20px;
+color:#777;
+opacity:0;
+animation:fadeIn 1s forwards 15s;
+}
+
+/* ANIMATION */
+
+@keyframes zoomLogo{
+from{
+opacity:0;
+transform:scale(0.4);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes showTour{
+from{
+opacity:0;
+transform:translateX(-100px);
+}
+to{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+@keyframes hideTour{
+to{
+opacity:0;
+transform:translateX(100px);
+}
+}
+
+@keyframes showImmigration{
+from{
+opacity:0;
+transform:translateX(100px);
+}
+to{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+@keyframes hideImmigration{
+to{
+opacity:0;
+transform:translateX(-100px);
+}
+}
+
+@keyframes showFinal{
+from{
+opacity:0;
+transform:scale(.9);
+}
+to{
+opacity:1;
+transform:scale(1);
+}
+}
+
+@keyframes lineGrow{
+to{
+transform:scaleX(1);
+}
+}
+
+@keyframes fadeIn{
+to{
+opacity:1;
+}
 }
 
 </style>
 </head>
-
 <body>
 
 <div class="container">
@@ -136,31 +256,19 @@ h1{
 <h1>Shivalik Global</h1>
 
 <div class="tagline">
-🌍 Explore Inspiration & Ideas With Us! ✨
-</div>
-
-<div class="description">
+🌍 Explore inspiration & ideas with us! ✨
+<br><br>
 Shivalik Global HR is a professional recruitment,
-manpower, immigration, visa support and travel
-service company.
+manpower, immigration, visa support and travel service company.
 </div>
 
-<div class="card">
-<h2>Immigration Services</h2>
-<ul>
-<li>Student Visa</li>
-<li>Work Visa</li>
-<li>Visitor Visa</li>
-<li>Passport Application</li>
-<li>Visa Application</li>
-<li>Air Tickets</li>
-<li>TOEFL Guidance</li>
-<li>IELTS Guidance</li>
-</ul>
-</div>
+<!-- TOURS FIRST -->
 
-<div class="card">
+<div class="section tour">
+
 <h2>Tours & Travels</h2>
+<div class="line"></div>
+
 <ul>
 <li>Domestic Tours</li>
 <li>International Tours</li>
@@ -173,19 +281,87 @@ service company.
 <li>Gujarat Tours</li>
 <li>Cultural Tours</li>
 </ul>
+
+</div>
+
+<!-- IMMIGRATION SECOND -->
+
+<div class="section immigration">
+
+<h2>Immigration Services</h2>
+<div class="line"></div>
+
+<ul>
+<li>Student Visa</li>
+<li>Work Visa</li>
+<li>Visitor Visa</li>
+<li>Passport Application</li>
+<li>Visa Application</li>
+<li>Air Tickets</li>
+<li>TOEFL Guidance</li>
+<li>IELTS Guidance</li>
+</ul>
+
+</div>
+
+<!-- FINAL BOTH -->
+
+<div class="final-sections">
+
+<div class="section">
+
+<h2>Immigration Services</h2>
+<div class="line"></div>
+
+<ul>
+<li>Student Visa</li>
+<li>Work Visa</li>
+<li>Visitor Visa</li>
+<li>Passport Application</li>
+<li>Visa Application</li>
+<li>Air Tickets</li>
+<li>TOEFL Guidance</li>
+<li>IELTS Guidance</li>
+</ul>
+
+</div>
+
+<div class="section">
+
+<h2>Tours & Travels</h2>
+<div class="line"></div>
+
+<ul>
+<li>Domestic Tours</li>
+<li>International Tours</li>
+<li>Dubai</li>
+<li>Thailand</li>
+<li>Vietnam</li>
+<li>South Africa</li>
+<li>Hong Kong</li>
+<li>Europe</li>
+<li>Gujarat Tours</li>
+<li>Cultural Tours</li>
+</ul>
+
+</div>
+
 </div>
 
 <div class="social">
 
-<a href="https://wa.me/919213628192" class="btn whatsapp">
+<a href="https://wa.me/919213628192"
+class="btn whatsapp">
 <i class="fab fa-whatsapp"></i> WhatsApp
 </a>
 
-<a href="https://www.linkedin.com/" class="btn linkedin">
+<a href="https://linkedin.com"
+class="btn linkedin">
 <i class="fab fa-linkedin"></i> LinkedIn
 </a>
 
-<a href="https://www.instagram.com/" class="btn instagram">
+<a href="https://instagram.com"
+class="btn instagram">
 <i class="fab fa-instagram"></i> Instagram
 </a>
 
