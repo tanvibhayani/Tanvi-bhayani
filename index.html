@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shivalik Global HR Services</title>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
 
@@ -14,22 +13,26 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, sans-serif;
+    font-family:'Segoe UI',sans-serif;
 }
 
 body{
-    background:#f4f6f9;
+    background:linear-gradient(135deg,#eef2f7,#d9e8ff);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     padding:20px;
 }
 
 .container{
-    max-width:550px;
-    margin:auto;
-    background:white;
-    border-radius:20px;
-    padding:30px;
-    box-shadow:0 0 20px rgba(0,0,0,0.1);
+    width:100%;
+    max-width:600px;
+    background:#fff;
+    border-radius:30px;
+    padding:40px 30px;
     text-align:center;
+    box-shadow:0 10px 35px rgba(0,0,0,0.12);
 }
 
 .logo{
@@ -37,38 +40,50 @@ body{
     height:150px;
     border-radius:50%;
     object-fit:cover;
-    border:4px solid #f1f1f1;
+    border:6px solid #f4f4f4;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
 h1{
-    margin-top:15px;
-    font-size:40px;
+    margin-top:20px;
+    font-size:42px;
     color:#222;
 }
 
-.description{
+.tagline{
     margin-top:15px;
-    color:#555;
-    line-height:1.8;
-    font-size:16px;
+    font-size:22px;
+    color:#444;
+    line-height:1.6;
 }
 
-.section{
-    margin-top:30px;
+.description{
+    margin-top:20px;
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.card{
+    background:#f8fafc;
+    margin-top:25px;
+    padding:20px;
+    border-radius:20px;
     text-align:left;
 }
 
-.section h2{
-    color:#ff6600;
-    margin-bottom:10px;
+.card h2{
+    color:#ff6b00;
+    margin-bottom:15px;
 }
 
-.section ul{
+.card ul{
     padding-left:20px;
 }
 
-.section li{
+.card li{
     margin:8px 0;
+    color:#444;
 }
 
 .social{
@@ -79,11 +94,16 @@ h1{
     display:block;
     text-decoration:none;
     color:white;
-    padding:15px;
-    margin-bottom:12px;
-    border-radius:10px;
     font-size:18px;
-    font-weight:bold;
+    font-weight:600;
+    padding:15px;
+    margin:12px 0;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
 }
 
 .whatsapp{
@@ -99,7 +119,7 @@ h1{
 }
 
 .footer{
-    margin-top:20px;
+    margin-top:25px;
     color:#777;
     font-size:14px;
 }
@@ -111,24 +131,22 @@ h1{
 
 <div class="container">
 
-<img src="https://raw.githubusercontent.com/tanvibhayani/Tanvi-bhayani/main/logo.jpeg"
-     class="logo"
-     alt="Shivalik Logo">
+<img src="logo.jpeg" class="logo">
 
 <h1>Shivalik Global</h1>
 
-<p class="description">
-🌍 Explore inspiration & ideas with us! ✨<br><br>
+<div class="tagline">
+🌍 Explore Inspiration & Ideas With Us! ✨
+</div>
 
+<div class="description">
 Shivalik Global HR is a professional recruitment,
 manpower, immigration, visa support and travel
 service company.
-</p>
+</div>
 
-<div class="section">
-
+<div class="card">
 <h2>Immigration Services</h2>
-
 <ul>
 <li>Student Visa</li>
 <li>Work Visa</li>
@@ -139,13 +157,10 @@ service company.
 <li>TOEFL Guidance</li>
 <li>IELTS Guidance</li>
 </ul>
-
 </div>
 
-<div class="section">
-
+<div class="card">
 <h2>Tours & Travels</h2>
-
 <ul>
 <li>Domestic Tours</li>
 <li>International Tours</li>
@@ -158,27 +173,20 @@ service company.
 <li>Gujarat Tours</li>
 <li>Cultural Tours</li>
 </ul>
-
 </div>
 
 <div class="social">
 
-<a href="https://wa.me/919213628192"
-class="btn whatsapp" target="_blank">
-<i class="fab fa-whatsapp"></i>
-WhatsApp
+<a href="https://wa.me/919213628192" class="btn whatsapp">
+<i class="fab fa-whatsapp"></i> WhatsApp
 </a>
 
-<a href="https://www.linkedin.com/"
-class="btn linkedin" target="_blank">
-<i class="fab fa-linkedin"></i>
-LinkedIn
+<a href="https://www.linkedin.com/" class="btn linkedin">
+<i class="fab fa-linkedin"></i> LinkedIn
 </a>
 
-<a href="https://www.instagram.com/"
-class="btn instagram" target="_blank">
-<i class="fab fa-instagram"></i>
-Instagram
+<a href="https://www.instagram.com/" class="btn instagram">
+<i class="fab fa-instagram"></i> Instagram
 </a>
 
 </div>
